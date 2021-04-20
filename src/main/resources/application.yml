@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: heroes
+
+  server:
+    port: 8080
+
+mongodb:
+  server: localhost
+  port: 27017
+  database: heroes
+#  uri: "mongodb://localhost:27017/heroes"

@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    hostname: mongodb
+
+    ports:
+      - 27017:27017
+    volumes:
+      - ./log/:/var/log/mongodb/
+      - ./data:/data/db
